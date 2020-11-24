@@ -6,17 +6,18 @@
     ORM:                gorm
     Mngmt Routers:      Gorilla/mux
     Mngmt environments: GoDotEnv
+    Source of truth:    https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml
 
 ## Note
 
-\*I used **Debug()** function provided by gorm for the **debbugin\***
+I used **Debug()** function provided by gorm for the **debbugin\***
 
 ## Instructions for run the code.
 
 ### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Rommel96/rakuten-appication-api-server-golang
+git clone https://github.com/Rommel96/euro-exchange-rates-api-server-golang
 ```
 
 ### 2. Create a **database** and set values on .env file
